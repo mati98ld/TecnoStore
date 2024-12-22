@@ -71,7 +71,9 @@ const dibujarPantalla = (dispositivo) => {
               </p>
             </div>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary btn-lg">Comprar</a>
+              <a class="btn btn-primary btn-lg" id=addBtn name=${
+                dispositivo.codigo
+              }>Agregar al carrito</a>
             </div>
           </div>
         </div>`;
